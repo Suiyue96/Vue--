@@ -37,6 +37,7 @@ export default{
             this.$router.replace(path)
         },
         isCurrent(path){
+            //$route.path是当前路径
             return this.$route.path === path
         }
     }

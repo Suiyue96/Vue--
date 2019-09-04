@@ -7,11 +7,18 @@
 
 <script>
 import FooterGuider from './components/FooterGuider/FooterGuider.vue'
+//获取食品分类列表
+import {reqCategorys} from '../src/api'
 export default {
+    async mounted(){
+        const result = await reqCategorys();
+        console.log(result);
+    },
+
     components: {
         FooterGuider
     }
-}
+};
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">

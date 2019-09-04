@@ -31,6 +31,5 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ###项目完成进度：
 
-目前完成了common.styl的引入。
-目前还没有进行组件的拆分，今天一定完成组件的拆分！！！
-组件拆分
+vuex管理
+异步数据交互
